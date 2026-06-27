@@ -354,8 +354,8 @@ def write_demo_html(sample: dict[str, Any], brief: str, review: str, model: str,
       font-size: 12px;
       line-height: 1.48;
       background: #f6f8fa;
-      max-height: 1060px;
-      overflow: hidden;
+      max-height: none;
+      overflow: visible;
     }}
     .output pre {{ background: #ffffff; font-size: 13px; }}
   </style>
