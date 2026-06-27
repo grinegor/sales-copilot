@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-06-27T07:06:52.126877+00:00",
+  "model": "gpt-5.4-mini",
+  "input_file": "data/sample_client.json",
+  "outputs": {
+    "phase1_brief": "outputs/phase1_brief.md",
+    "phase2_review": "outputs/phase2_review.md"
+  },
+  "duration_seconds": 16.87,
+  "phase1_response": {
+    "id": "resp_0a5bf17af327dc02006a3f767cb56c81a3b0dfe7382a7bba4b",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "status": "completed",
+    "usage": {
+      "input_tokens": 1324,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 839,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2163
+    }
+  },
+  "phase2_response": {
+    "id": "resp_054bf5c8d3ab6552006a3f76825a4081a2b459a6f4f34781ea",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "status": "completed",
+    "usage": {
+      "input_tokens": 2910,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 1556,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4466
+    }
+  },
+  "secret_handling": "OPENAI_API_KEY was read from .env/environment and was not written to outputs."
+}
